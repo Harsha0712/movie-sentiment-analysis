@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Data files (large / user-supplied - don't commit to GitHub)
+movies.csv
+ratings.csv
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
