@@ -70,10 +70,3 @@ movie-sentiment-analysis/
 
 This project is open source and available under the [MIT License](LICENSE).
 
-# 
-
-![image.png](assets/2026-08-24-image-3b1d.png)
-
-```mermaid
-flowchart TD
-```
