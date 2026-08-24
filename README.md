@@ -1,3 +1,9 @@
+---
+updated: 2026-08-24T15:48:43.064Z
+editedBy: Harsha0712
+generator: ForkLeaf — https://github.com/praneeth132006/ForkLeaf
+---
+
 # 🎬 Movie Sentiment Analysis
 
 A simple Python script that analyzes movie ratings from the [MovieLens dataset](https://grouplens.org/datasets/movielens/) and converts them into sentiment labels (**positive / neutral / negative**). It then lets you search for a movie by name and see how positively it's rated overall.
@@ -8,19 +14,21 @@ A simple Python script that analyzes movie ratings from the [MovieLens dataset](
 2. Converts each numeric rating into a sentiment:
    - Rating ≥ 4 → `positive`
    - Rating == 3 → `neutral`
-   - Rating < 3 → `negative`
+   - Rating &lt; 3 → `negative`
 3. Computes a **positivity score** per movie: `positive / (positive + neutral + negative)`.
 4. Lets you search movies by (partial, case-insensitive) title and shows the top 10 matches sorted by score.
 
 ## Setup
 
 1. Clone this repo:
+
    ```bash
    git clone https://github.com/<your-username>/movie-sentiment-analysis.git
    cd movie-sentiment-analysis
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -61,3 +69,5 @@ movie-sentiment-analysis/
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+# testing
